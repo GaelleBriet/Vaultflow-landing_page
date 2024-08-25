@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
     <NavBarComponent />
     <NuxtPage />
   </div>

@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     typeCheck: true,
   },
 
-  modules: ["@nuxt/eslint", "@nuxtjs/tailwindcss"],
+  modules: ["@nuxt/eslint", "@nuxtjs/tailwindcss", "@nuxt/image", "@nuxt/icon"],
 
   css: ["@/assets/scss/global.scss"],
 });

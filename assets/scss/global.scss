@@ -2,19 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body, html {
+:root {
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
+    box-sizing: border-box;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
-
-    background-image: url("../images/background.jpeg");
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg.png");
+    background-color: #0b0121;
+    line-height: inherit;
+    background-size: contain;
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
-    /*background-position: center ;*/
-    /*background-attachment: fixed;*/

@@ -1,4 +1,8 @@
 <script lang="ts" setup></script>
 <template>
-  <div>Index</div>
+  <HeroSectionComponent />
+  <LogoSectionComponent />
+  <MainSectionComponent />
+  <FooterComponent />
 </template>
+<style scoped></style>

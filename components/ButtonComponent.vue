@@ -1,10 +1,22 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+defineProps<{
+  height: string;
+  label: string;
+  inverted?: boolean;
+}>();
+</script>
 
 <template>
   <div
-    class="navbar-button button-border content-center text-base text-blue_dark bg-white w-[189px] h-10"
+    :class="[
+      'button-border content-center text-base w-[189px] cursor-pointer',
+      height,
+      inverted
+        ? 'bg-transparent border border-white text-white hover:bg-white hover:text-blue_dark'
+        : 'bg-white text-blue_dark hover:bg-white_0 hover:text-white',
+    ]"
   >
-    Download the app
+    {{ label }}
   </div>
 </template>
 

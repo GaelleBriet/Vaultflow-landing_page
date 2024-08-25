@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@nuxt/eslint": "^0.5.2",
+    "@nuxt/icon": "^1.4.10",
+    "@nuxt/image": "^1.7.0",
     "nuxt": "^3.13.0",
     "vue": "latest"
   },
