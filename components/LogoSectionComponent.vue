@@ -38,7 +38,7 @@ const getImageUrl = (name: string) => {
           :src="getImageUrl(logo.name)"
           :alt="`${logo.name}-logo`"
           class="h-5 w-auto"
-        />
+        >
       </template>
     </div>
   </div>

@@ -26,7 +26,7 @@ const getImageUrl = (logo: string) => {
   >
     <template v-if="!image">
       <div class="card-image mb-4 w-12 h-12">
-        <img :src="getImageUrl(logo)" alt="icon" />
+        <img :src="getImageUrl(logo)" alt="icon" >
       </div>
       <div class="card-content flex flex-col">
         <p class="text-2xl sm:text-3xl mb-2.5 font-medium">{{ title }}</p>
@@ -42,7 +42,7 @@ const getImageUrl = (logo: string) => {
       <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/2 mb-4 md:mb-0">
           <div class="card-image mb-4 w-12 h-12">
-            <img :src="getImageUrl(logo)" alt="icon" />
+            <img :src="getImageUrl(logo)" alt="icon" >
           </div>
           <p class="text-2xl sm:text-3xl mb-2.5 font-medium">{{ title }}</p>
           <p class="text-sm sm:text-base mb-2.5">
@@ -57,7 +57,7 @@ const getImageUrl = (logo: string) => {
             class="max-h-[250px] w-auto"
             :src="getImageUrl(image)"
             alt="image"
-          />
+          >
         </div>
       </div>
     </template>

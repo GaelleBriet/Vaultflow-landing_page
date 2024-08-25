@@ -33,8 +33,8 @@ const toggleDropdown = () => {
           :height="'h-10'"
           :label="'Download the app'"
         />
-        <button @click="toggleDropdown" class="md2:hidden text-white">
-          <img src="../assets/images/menu-burger.svg" alt="menu-icon" />
+        <button class="md2:hidden text-white" @click="toggleDropdown">
+          <img src="../assets/images/menu-burger.svg" alt="menu-icon" >
         </button>
       </div>
 

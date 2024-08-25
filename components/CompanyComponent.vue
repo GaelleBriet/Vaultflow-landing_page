@@ -6,7 +6,7 @@
       src="../assets/images/logo.png"
       alt="logo"
       class="h-[22px] w-[22px] mr-2.5"
-    />
+    >
     <div class="text-[22px] font-bold tracking-tighter">Vaultflow</div>
   </div>
 </template>
