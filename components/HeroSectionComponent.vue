@@ -12,7 +12,7 @@
         <h1
           class="text-mask-gradient text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight mt-6 mb-6 text-center leading-tight"
         >
-          Modern analytics<br >for the modern world
+          Modern analytics<br />for the modern world
         </h1>
         <p
           class="w-full sm:w-4/5 md:w-3/5 text-white_65 m-auto text-sm sm:text-base md:text-lg"
@@ -32,8 +32,8 @@
         />
       </div>
     </div>
-    <div class="image-container w-full">
-      <img src="../assets/images/charts-img.png" alt="charts-img" >
+    <div class="image-container flex justify-center w-full">
+      <img src="../assets/images/charts-img.png" alt="charts-img" />
     </div>
   </div>
 </template>

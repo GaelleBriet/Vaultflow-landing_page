@@ -45,7 +45,7 @@
 
     <div class="downloads-card mt-6 sm:mt-8 md:mt-[60px]">
       <div
-        class="container w-full sm:w-11/12 md:w-10/12 mx-auto mt-8 sm:mt-12 pb-8 sm:pb-12 md:pb-[60px]"
+        class="w-full sm:w-11/12 md:w-10/12 mx-auto mt-8 sm:mt-12 pb-8 sm:pb-12 md:pb-[60px]"
       >
         <div
           class="card rounded-[20px] text-white shadow-custom p-6 sm:p-8 md:p-[60px] bg-custom-gradient from-custom-gradient-start to-custom-gradient-end"
