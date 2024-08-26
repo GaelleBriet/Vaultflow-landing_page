@@ -1,5 +1,6 @@
 # Project
 LandingPage based on a figma template
+![Capture d’écran du 2024-08-26 21-53-22](https://github.com/user-attachments/assets/e86a590e-c56d-44e1-9304-01d5672edb2d)
 
 # See live
 https://vaultflow-landing-page.nuxt.dev/
